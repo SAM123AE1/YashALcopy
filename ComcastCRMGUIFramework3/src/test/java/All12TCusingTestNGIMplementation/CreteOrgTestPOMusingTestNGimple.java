@@ -15,7 +15,7 @@ import com.crm.generic.Baseutility.BaseTestforRealProject;
 public class CreteOrgTestPOMusingTestNGimple extends BaseTestforRealProject {
 
 	@Test(groups = "Smoke Test")
-	public void CreateOrg() throws Throwable {
+	public void CreateOrgTest() throws Throwable {
 		//read data from excel
 		 UtilityclassObject.getTest().log(Status.INFO,"read data from excel");
 
@@ -53,7 +53,7 @@ public class CreteOrgTestPOMusingTestNGimple extends BaseTestforRealProject {
 	}
 
 	@Test(groups = "Regression Test")
-	public void CreateOrganizationwithIndustryTestpom() throws Throwable {
+	public void CreateOrganizationwithIndustryTestpomTest() throws Throwable {
 
 		String ORGNAME = elib.getDataFromExcel("Createorg", 4, 2) + jlib.getRandomNumber();
 		String Industry = elib.getDataFromExcel("Createorg", 4, 3);
@@ -82,7 +82,7 @@ public class CreteOrgTestPOMusingTestNGimple extends BaseTestforRealProject {
 	}
 
 	@Test(groups = "Regression Test")
-	public void CreateORGwithPHoneNUm() throws Throwable {
+	public void CreateORGwithPHoneNUmTest() throws Throwable {
 		String ORGNAME = elib.getDataFromExcel("Createorg", 7, 2) + jlib.getRandomNumber();
 
 		String PhoneNumberfromexcel = elib.getDataFromExcel("Createorg", 7, 3);
@@ -101,7 +101,7 @@ public class CreteOrgTestPOMusingTestNGimple extends BaseTestforRealProject {
 	}
 
 	@Test(groups = "Regression Test")
-	public void DeleteOrganizationTestPom() throws Throwable {
+	public void DeleteOrganizationTestPomTest() throws Throwable {
 		String ORGNAME = elib.getDataFromExcel("Createorg", 10, 2) + jlib.getRandomNumber();
 
 		// Navigate to Organization

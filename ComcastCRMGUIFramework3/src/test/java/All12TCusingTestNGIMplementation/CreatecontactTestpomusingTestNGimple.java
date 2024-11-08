@@ -54,7 +54,7 @@ public class CreatecontactTestpomusingTestNGimple extends BaseTestforRealProject
 	}
 
 	@Test(groups = "Regression Test")
-	public void CreateContactwithOrg() throws Throwable {
+	public void CreateContactwithOrgTest() throws Throwable {
 		String CONTACTLN = elib.getDataFromExcel("Contact", 7, 3) + jlib.getRandomNumber();
 
 		String ORGNAME = elib.getDataFromExcel("Contact", 7, 2) + jlib.getRandomNumber();
@@ -147,7 +147,7 @@ public class CreatecontactTestpomusingTestNGimple extends BaseTestforRealProject
 	}
 
 	@Test(groups = "Regression Test")
-	public void CreateContactwithSupportDate() throws Throwable {
+	public void CreateContactwithSupportDateTest() throws Throwable {
 
 		String CONTACTLN = elib.getDataFromExcel("Contact", 4, 2) + jlib.getRandomNumber();
 
@@ -206,7 +206,7 @@ public class CreatecontactTestpomusingTestNGimple extends BaseTestforRealProject
 	}
 
 	@Test(groups = "Regression Test")
-	public void CreateConatctwithEmail() throws Throwable {
+	public void CreateConatctwithEmailTest() throws Throwable {
 		// excel connection
 		String CONTACTLN = elib.getDataFromExcel("Contact", 1, 2) + jlib.getRandomNumber();
 
@@ -289,7 +289,7 @@ public class CreatecontactTestpomusingTestNGimple extends BaseTestforRealProject
 	}
 
 	@Test(groups = "Regression Test")
-	public void ReportofOrgnContactTC06Pom() throws Throwable {
+	public void ReportofOrgnContactTC06PomTest() throws Throwable {
 		// excel connection
 		String Report = elib.getDataFromExcel("Report", 1, 2) + jlib.getRandomNumber();
 

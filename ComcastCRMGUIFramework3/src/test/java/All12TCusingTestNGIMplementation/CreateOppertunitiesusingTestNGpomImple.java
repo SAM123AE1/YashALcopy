@@ -19,7 +19,7 @@ import AssertUtility.SoftAssertCalling;
 public class CreateOppertunitiesusingTestNGpomImple extends BaseTestforRealProject {
 
 	@Test(groups = "Smoke Test")
-	public void CreateOppertunities() throws Throwable {
+	public void CreateOppertunitiesTest() throws Throwable {
 		String Oppetyname1 = elib.getDataFromExcel("Documents", 7, 2) + jlib.getRandomNumber();
 
 		String ORGNAME = elib.getDataFromExcel("Documents", 7, 1) + jlib.getRandomNumber();

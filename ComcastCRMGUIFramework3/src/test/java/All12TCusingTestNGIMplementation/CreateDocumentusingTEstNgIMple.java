@@ -11,7 +11,7 @@ import com.crm.generic.Baseutility.BaseTestforRealProject;
 public class CreateDocumentusingTEstNgIMple extends BaseTestforRealProject{
 
 	@Test(groups = "Smoke Test")
-	public void CreateDocument() throws Throwable {
+	public void CreateDocumentTest() throws Throwable {
 		String DOCTITLES = elib.getDataFromExcel("Documents", 1, 2) + jlib.getRandomNumber();
 
 		HomePage hp = new HomePage(driver);

@@ -13,7 +13,7 @@ import com.crm.generic.Baseutility.BaseTestforRealProject;
 public class CreateLeadsusingTEstngIMple extends BaseTestforRealProject {
 
 	@Test(groups = "Smoke Test")
-	public void CreateLeads() throws Throwable {
+	public void CreateLeadsTest() throws Throwable {
 		String LASTNAME = elib.getDataFromExcel("Documents", 4, 2) + jlib.getRandomNumber();
 
 		String COMPANY = elib.getDataFromExcel("Documents", 4, 3) + jlib.getRandomNumber();

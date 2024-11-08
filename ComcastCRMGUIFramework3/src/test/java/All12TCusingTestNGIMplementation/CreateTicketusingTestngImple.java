@@ -10,7 +10,7 @@ import com.crm.generic.Baseutility.BaseTestforRealProject;
 
 public class CreateTicketusingTestngImple extends BaseTestforRealProject{
 	@Test(groups = "Smoke Test")
-	public void CreateTicket1() throws Throwable
+	public void CreateTicket1Test() throws Throwable
 	{
 		// excel connection
 		String TicketTitle = elib.getDataFromExcel("Ticket", 1, 2) + jlib.getRandomNumber();
